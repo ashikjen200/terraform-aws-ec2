@@ -34,3 +34,8 @@ variable "name_tag" {
    description = "Name of the EC2 instance"
    default     = ""
 }
+variable "env" {
+   type        = string
+   description = "Environment Name"
+   default     = ""
+}
