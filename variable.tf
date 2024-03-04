@@ -13,24 +13,24 @@ variable "aws_secret_key" {
 variable "aws_region" {
   description = "AWS region"
   type        = string
-  default     = "ap-south-1"
+  default     = ""
 }
 
 
 variable "ami" {
    type        = string
    description = "Ubuntu AMI ID"
-   default     = "ami-03bb6d83c60fc5f7c"
+   default     = ""
 }
 
 variable "instance_type" {
    type        = string
    description = "Instance type"
-   default     = "t2.micro"
+   default     = ""
 }
 
 variable "name_tag" {
    type        = string
    description = "Name of the EC2 instance"
-   default     = "My EC2 Instance"
+   default     = ""
 }
