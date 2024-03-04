@@ -3,6 +3,6 @@ resource "aws_instance" "public_instance" {
  instance_type = var.instance_type
 
  tags = {
-   Name = var.name_tag,
+   Name="${var.env}-POC-instance",
  }
 }
